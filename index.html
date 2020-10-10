@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello I am <br><span>Rohith<span></h2>
+            <h3>I'm a front end developer.</h3>
+            <a href="#" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="heading">
+            <h2>About Me</h2>   
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3><b>I am a front end developer</b></h3>
+                <p>In compare to studies, I am good at sports. so I am the captain of my class football team. I am the best football player at my school. Besides this, I am a fast runner also and I love athletics. I am in expert swimming.
+
+                    The advice of my parents had a keen effect on my habits. I believe to speak the truth and try my best not to lie. My parents always advised me that if I commit a mistake, I should admit it. I try my best to do so. I know how to remain happy in every condition. Because I believe that: “Happiness is not out there; it’s in you.”
+                    
+                    <br><br>I am a very adventurous person too and like to take the risk. I like to do a creative thing besides doing old stuff again and again. Learning new things is one thing which I always enjoy. I always update myself with the news.
+                    
+                    Along with this, I fond of reading a few children magazines in which different motivational stories are there. They taught me a high moral lesson. I am a very confident person and know how to talk. I always try to speak to every person according to his requirement so I understand people.</p>
+            </div>
+            <div class="w50">
+                <img src="img/img1.jpg" class="img">
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header = document.querySelector("header");
+                header.classList.toggle('sticky',window.scrollY > 0);
+
+            });
+        </script>
+    </section>
+</body>
+
+</html>
