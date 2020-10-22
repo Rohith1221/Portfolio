@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap'); */
+
 * {
     margin: 0;
     padding: 0%;
@@ -59,7 +61,7 @@ header {
     top: 0%;
     left: 0%;
     width: 100%;
-    padding: 20px 100px;
+    padding: 40px 100px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -70,7 +72,7 @@ header {
 header.sticky {
     background: #fff;
     padding: 20px 100px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 header.sticky .logo {
@@ -116,7 +118,7 @@ header.sticky ul li a {
 }
 
 .heading h2 {
-    font-weight: 1000;
+    font-weight: 600;
     font-size: 30px;
 }
 
@@ -130,7 +132,7 @@ header.sticky ul li a {
 }
 
 .contentBx h3 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -179,7 +181,25 @@ img {
 }
 
 .services .content .servicesBx h2 {
-    font-size: 30px;
-    font-weight: 300;
-    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    /* font-family: 'Oleo Script', cursive; */
 }
+
+.work .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work .content .workBx {
+    width: 50%;
+    padding: 20px;
+}
+
+.work .content .workBx img {
+    max-width: 100%;
+}
+
+
+/* 22:13 */
